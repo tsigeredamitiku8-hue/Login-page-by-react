@@ -1,0 +1,129 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   margin-top: 80px;
+   background: #fff;
+   padding-bottom: 20px;
+   width: 400px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text {
+   color: #3c009d;
+   font-size: 32px;
+   font-weight: 700;
+}
+
+.underline {
+    width: 45px;
+    height: 5px;
+    background: #3c009d;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 320px;
+    height: 50px;
+    background: #eaeaea;
+    border-radius: 6px;
+    padding: 0 15px;
+    gap: 12px;
+}
+
+.input img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.input input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 15px;
+    color: #797979;
+    font-size: 14px;
+}
+
+.forgot-link {
+    background: none;
+    border: none;
+    color: #3c009d;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 6px;
+    padding: 0;
+}
+
+.response-message {
+    text-align: center;
+    font-size: 14px;
+    margin: 16px auto 0;
+    width: 320px;
+    font-weight: 600;
+}
+
+.response-message.success {
+    color: #127a2c;
+}
+
+.response-message.error {
+    color: #c02b2b;
+}
+
+.submit-container {
+    display: flex;
+    gap: 15px;
+    margin: 20px auto 0;
+    justify-content: center;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.primary-submit {
+    border: none;
+    margin: 0;
+}
+
+.gray {
+    background: #eaeaea;
+    color: #676767;
+}
